@@ -5,22 +5,67 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifólio</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <style>
+        body {
+            
+            background-color:#eff1f5 ;
+        }
+        #sobre {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        #localidade {
+            font-style: italic;
+        }
+
+        .font-24 {
+            font-size: 24px;
+        }
+        .font-22 {
+            font-size: 22px;
+        }
+        .font-20 {
+            font-size: 20px;
+        }
+
+        h1 {
+            font-family: sans-serif;
+        }
+    </style>
 </head>
 <body>
     <!-- Título -->
     <h1>Tiago Nogueira dos Santos</h1>
     <!-- imagem e descrição -->
     <img id="foto_perfil" src="./image/51952693-E3F8-4E75-8C91-36B785B2C6B4_1_105_c.jpeg" alt="imagem do Tiago Nogueira Dos Santos" width="150px">
+  
+    <p id="localidade">
+        Araguaína, Tocantins, Brasil
+    </p>
+
+    <h3 id="sobre">Sobre mim</h3>
+    <p>
+        Estudante de Desenvolvimento Web na Trybe. Gosto bastante de tecnologias, animais, além de apreciar cervejas, e cachaças. Sou noivo da Julye R. Marino, e com ela formamos uma família de dog e cats. 
+    </p>
+
+    <p>
+        Nasci no interior do Maranhão - Balsas, a capital da soja - e tenho orgulho da minha de ser Balsense. Atualmante moro em Araguaína, Tocantis.
+    </p>
 
     <!-- Uma breve descrição destacando algumas informações como nacionalidade e a cidade/estado onde mora; -->
-    <p id="localidade">
-        <em>Brasil, Tocantins, Araguaína</em>
-    </p>
     <!-- Uma lista de habilidades que você possui, com destaque para aquela de que você mais se orgulha; -->
+    <br>
+    <h4>Habilidades</h4>
     <ul id="lista_de_habilidades">
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JS</li>
+        <li class="font-24">Colaborativo</li>
+        <li class="font-20">Empático</li>
+        <li class="font-24">Curioso</li>
+        <li class="font-24">Flexiível a mudanças</li>
+        <li class="font-24">Proativo</li>
+        <li class="font-22">HTML</li>
+        <li class="font-22">CSS</li>
+        <li class="font-22">JS</li>
         
     </ul>
     <!--Um link interno para a sua foto  -->
@@ -32,6 +77,8 @@
  -->
     <!--Um índice com links internos para as diferentes seções do seu portfólio.
   -->
+  <a href="#sobre">Sobre mim</a>
+  <br><br>
   <a href="#localidades">Localidade</a> 
   <br>
   <br>
