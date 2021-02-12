@@ -1,0 +1,33 @@
+body {
+            
+    background-color:#eff1f5 ;
+}
+#foto_perfil {
+    border-radius: 25px;
+    border: 2px solid #aaaaaa;
+}
+#sobre {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#localidade {
+    font-style: italic;
+}
+
+.font-24 {
+    font-size: 24px;
+}
+.font-22 {
+    font-size: 22px;
+}
+.font-20 {
+    font-size: 20px;
+}
+
+.texto-underline {
+    text-decoration: underline;
+}
+
+h1 {
+    font-family: sans-serif;
+}
