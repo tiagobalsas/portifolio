@@ -1,33 +1,73 @@
 body {
-            
-    background-color:#eff1f5 ;
+  background-color: #fefefe;
+}
+.titulo {
+  text-align: center;
 }
 #foto_perfil {
-    border-radius: 25px;
-    border: 2px solid #aaaaaa;
+  border-radius: 25px;
+  border: 2px solid #aaaaaa;
+  margin: 2px 0px -28px 3px;
+  background-color: #d6d8d9;
 }
 #sobre {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 #localidade {
-    font-style: italic;
+  font-style: italic;
+  font-size: 14px;
+  margin-top: 30px;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+#lista_de_habilidades :nth-child(2n+1) {
+    
+    color: #818182;
 }
 
 .font-24 {
-    font-size: 24px;
+  font-size: 24px;
 }
 .font-22 {
-    font-size: 22px;
+  font-size: 22px;
 }
 .font-20 {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .texto-underline {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 h1 {
-    font-family: sans-serif;
+  font-family: sans-serif;
+}
+
+.perfil {
+  float: left;
+  background-color: #d6d8d9;
+  border-radius: 10px;
+  padding-top: 5px;
+}
+
+.descricao {
+  float: none;
+  /* margin: 68px 5px 10px 176px; */
+  margin-left: 205px;
+  padding-top: 31px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.habilidades {
+  clear: both;
+  margin: 40px 0px 25px -1px;
+}
+
+.rodape {
+  margin-top: 15px;
+  margin-bottom: 30px;
 }
